@@ -1,0 +1,5 @@
+##
+# jekyll configuration for tom-tom-tom
+#
+server_port: 4008
+destination: ../site

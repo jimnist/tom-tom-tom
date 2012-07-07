@@ -1,0 +1,152 @@
+/* line 4, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* line 18, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+.bp-reset-element, body, h1, h2, h3, h4, h5, h6, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, blockquote, q, th, td, caption, table,
+div, span, object, iframe, p,
+pre, a, abbr, acronym, address,
+code, del, dfn, em, img,
+dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend,
+caption, tbody, tfoot, thead, tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 21, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+blockquote, q {
+  quotes: "" "";
+}
+/* line 67, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
+
+/* line 22, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+th, td, caption {
+  float: none !important;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 23, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 19, ../../compass/src/screen.scss */
+body.bp {
+  background-color: #dedede;
+}
+/* line 9, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body.bp .clear {
+  clear: both;
+}
+/* line 12, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body.bp .nowrap {
+  white-space: nowrap;
+}
+/* line 16, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body.bp .clearfix {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 18, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body.bp .small {
+  font-size: 0.8em;
+  margin-bottom: 1.875em;
+  line-height: 1.875em;
+}
+/* line 22, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body.bp .large {
+  font-size: 1.2em;
+  line-height: 2.5em;
+  margin-bottom: 1.25em;
+}
+/* line 26, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body.bp .first {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 29, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body.bp .last {
+  margin-right: 0;
+  padding-right: 0;
+}
+/* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body.bp .top {
+  margin-top: 0;
+  padding-top: 0;
+}
+/* line 35, ../../../../../.rvm/gems/ruby-1.9.3-p194@loco8/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_utilities.scss */
+body.bp .bottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* line 27, ../../compass/src/screen.scss */
+body.bp #smiley {
+  width: 1111px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+  width: 444px;
+  margin-top: 22px;
+}
+/* line 35, ../../compass/src/screen.scss */
+body.bp #resume {
+  width: 1111px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 11px;
+  background-color: cornsilk;
+}
+
+/* line 58, ../../compass/src/screen.scss */
+body.tom {
+  background-color: black;
+}
+/* line 61, ../../compass/src/screen.scss */
+body.tom .tom {
+  width: 1111px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 33px;
+  height: 555px;
+  background-color: rgba(255, 254, 104, 0.22);
+  text-align: center;
+  font-family: 'Corben', cursive;
+  font-weight: 700;
+}
+/* line 73, ../../compass/src/screen.scss */
+body.tom .pink {
+  color: rgba(255, 105, 180, 0.66);
+}
+/* line 74, ../../compass/src/screen.scss */
+body.tom .green {
+  color: rgba(180, 255, 103, 0.66);
+}

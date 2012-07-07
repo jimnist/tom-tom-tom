@@ -1,0 +1,76 @@
+@import "blueprint/reset";
+@import "partials/base";
+@import "blueprint";
+//
+//// Import the non-default scaffolding module.
+//@import "blueprint/scaffolding";
+
+// To generate css equivalent to the blueprint css but with your
+// configuration applied, uncomment:
+//@include blueprint;
+
+// But Compass recommends that you scope your blueprint styles
+// So that you can better control what pages use blueprint
+// when stylesheets are concatenated together.
+//@include blueprint-scaffolding("body.bp");
+
+$bg : #dedede;
+
+body.bp {
+//  @include blueprint-typography(true);
+  @include blueprint-utilities;
+//  @include blueprint-debug;
+//  @include blueprint-interaction;
+
+  background-color: $bg;
+
+  #smiley {
+    @include container;
+
+    // container overrides
+    width: 444px;
+    margin-top: 22px;
+  }
+
+  #resume {
+    @include container;
+
+    // container overrides
+    margin-top: 11px;
+
+    background-color: cornsilk;
+
+    .chart {
+    }
+
+    .words {
+    }
+  }
+}
+
+
+// colors
+//
+$lemon: rgba(255, 254, 104, .22);
+$limon: rgba(180, 255, 103, .66);
+$pinkie: rgba(255, 105, 180, .66);
+
+body.tom {
+  background-color: black;
+
+  .tom {
+    @include container;
+    margin-top: 33px;
+    height: 555px;
+    background-color: $lemon;
+    // font-size: 18em;
+    text-align: center;
+    // font-family: 'Lilita One', cursive;    
+    font-family: 'Corben', cursive;    
+    font-weight: 700; 
+  }
+
+  .pink { color: $pinkie;}
+  .green { color: $limon;}
+}
+
