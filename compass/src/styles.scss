@@ -5,17 +5,17 @@
 @include blueprint;
 
 $lemon: rgba(255, 254, 104, .22);
-$limon: rgba(180, 255, 103, .66);
-$pinkie: rgba(255, 105, 180, .66);
+$limon: rgba(180, 255, 103, .88);
+$pinkie: rgba(255, 105, 180, .77);
 
-body.tom {
+body {
   background-color: black;
 
   .tom {
     @include container;
     margin-top: 33px;
-    height: 555px;
-    background-color: $lemon;
+    min-height: 555px;
+    // background-color: $lemon;
     // font-size: 18em;
     text-align: center;
     // font-family: 'Lilita One', cursive;    
@@ -25,5 +25,28 @@ body.tom {
 
   .pink { color: $pinkie;}
   .green { color: $limon;}
+
+  ul { list-style-type: none;}
+
+  .i01, .i03, .i02, .i04, .i06, .i15, .i16, .i17 { font-size: 180px; line-height: 165px; }
+  .i05 { font-size: 99px; line-height: 88px; }
+
+  .i07 { font-size: 77px; line-height: 66px; }
+  .i08 { font-size: 55px; line-height: 66px; }
+
+  .i09, .i12, .i13, .i14 { font-size: 105px; line-height: 111px; }
+  .i10 { font-size: 60px; line-height: 77px; }
+  .i11 { font-size: 93px; line-height: 101px; }
+
+  .i01, .i15 { margin-top: 33px; }
+  .i04, .i06 { margin-top: 111px; }
+  .i09 { margin-top: 111px; }
+  .i12 { margin-top: 111px; }
+
+  .i01, .i03, .i05, .i07, .i10, .i13, .i15, .i17 {color: $pinkie;}
+  .i02, .i04, .i06, .i08, .i09, .i11, .i12, .i14, .i16 { color: $limon;}
+
+  .i01, .i02, .i03, .i04, .i05, .i06, .i07, .i08, .i09, .i10, .i11, .i12, 
+  .i13, .i14, .i15, .i16, .i17, .p1, .p2, .p3, .p4, .p5, .p6 { display: none; }
 }
 
