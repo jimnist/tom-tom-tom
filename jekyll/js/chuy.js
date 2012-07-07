@@ -16,7 +16,7 @@ function chuyChuy(pagefade, linefade) {
 
 function queuePageOne(q, fastfade, pagefade, linefade) {
   q.queue('chuy', function(next) {
-      $('.p1').fadeIn(fastfade, function() {
+      $('.p1').delay(2000).fadeIn(fastfade, function() {
           next();
       });
   });
