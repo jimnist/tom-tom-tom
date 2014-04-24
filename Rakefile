@@ -8,21 +8,22 @@
 
 USER_NAME = "jimnist"
 HOST_NAME = "jimnist.com"
-SITE_DIR = "tom"
+SITE_DIR = "jimnist.com/tom-tom-tom"
 
 desc "build _site locally"
 task :build => :delete do
   puts "building site"
   system('compass compile ./compass')
-  system('jekyll ./jekyll ./site')
+  system('jekyll build')
 end
 
 desc "deletes jekyll generated site"
 task :delete do
   puts "deleting site"
-  system('rm -fr site/css/')
-  system('rm -fr site/js/')
-  system('rm -fr site/img/')
+  system('rm -fr _site/css/')
+  system('rm -fr _site/js/')
+  system('rm -fr _site/img/')
+  system('rm -fr _site/*')
 end
 
 # first make sure we are using production javascript files,
@@ -30,7 +31,7 @@ end
 desc "deploy site to dreamhost"
 task :deploy => :build  do
   puts "deploying to dreamhost"
-  system "rsync -avrz site/ #{USER_NAME}@#{HOST_NAME}:#{SITE_DIR}"
+  system "rsync -avrz _site/ #{USER_NAME}@#{HOST_NAME}:#{SITE_DIR}"
 end
 
 desc "run jekyll and compass dev servers"
